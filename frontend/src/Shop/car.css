@@ -1,0 +1,144 @@
+.main h1{
+    color: white ;
+    cursor: pointer;
+}
+.main{
+    display:flex;   
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    /* margin: 0 5px 0 5px; */
+}
+.logo p{
+    color: white;
+    font-size: 13px;
+    margin-top: -3px;
+    margin-right: 7px;
+}
+.logo{
+    /* background-color: red; */
+    display: grid;
+    place-items: end;
+    height: 50px;
+    margin-top: 7px;
+}
+.logo-img{
+    width: 40%;
+}
+span{
+    color: rgb(233, 218, 18);
+}
+
+ .login-btn{
+    background-color: white;
+    padding: 2px 30px 2px 30px;
+    color: #0D6EFD;
+    border-radius: 0px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding-block: 5px;
+}
+.seller-btn{
+    background-color: #0D6EFD;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.product-img img {
+    width: 70%;
+    transition: 0.3s ease;
+}
+ .link{
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    transition: 0.3s ;
+    text-decoration: none;
+    font-weight: bold;
+    /* gap: 40px; */
+    
+}
+li{
+    list-style-type: none;
+}
+/* Link:active{
+    color: white;
+} */
+.link:hover{
+    color: rgb(9, 62, 235);
+}
+.r1{
+    /* background-color: red; */
+    margin: 15px 35px 10px 35px;
+    width: 17%;
+    height: 350px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 10px black; */
+}
+.body{
+    overflow-x: hidden;
+}
+.footer{
+    width: 100%;
+    /* position: absolute;
+    bottom: 0px; */
+    background-color: #0648ff;
+    color: white;
+}
+.btn{
+    margin-bottom: 5px;
+}
+.product-img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.right-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    .right-div{
+        flex-direction: column;
+    }
+    .r1{
+        width: 70%;
+        height: 400px;
+    }
+
+    li{
+        display: none;
+    }
+}
+
+
+/* input-bar css  */
+.srch {
+    display: flex;
+    height: 35px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .srch i {
+    color: rgb(28, 92, 231);
+    /* background-color: rgb(36, 97, 228); */
+  }
+  
+  .inpt {
+    padding: 2px;
+    width: 540px;
+    color: rgb(61, 60, 60);
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+
+  
+  /* @media only screen and (max-width: 600px){}  */

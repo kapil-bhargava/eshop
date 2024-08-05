@@ -1,0 +1,17 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: #333; /* Change this to the desired color */
+  }
+  
+  .navbar h1 {
+    color: white; /* Adjust the text color as needed */
+  }
